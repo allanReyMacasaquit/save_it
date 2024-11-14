@@ -3,7 +3,7 @@ import { Poppins } from 'next/font/google';
 import './globals.css';
 
 export const metadata: Metadata = {
-	title: 'Save_it',
+	title: 'Save it',
 	description: 'Save it - One solution for saving files',
 };
 

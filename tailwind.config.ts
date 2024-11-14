@@ -11,33 +11,33 @@ const config: Config = {
 		extend: {
 			colors: {
 				brand: {
-					DEFAULT: '#FA7275',
-					100: '#EA6365',
+					DEFAULT: '#5CA0D3', // Light blue main color
+					100: '#4A90C2', // Darker shade of light blue for hover or accents
 				},
 				red: '#FF7474',
 				error: '#b80000',
 				green: '#3DD9B3',
 				blue: '#56B8FF',
-				pink: '#EEA8FD',
-				orange: '#F9AB72',
+				pink: '#A3DAFF', // Lightened for subtle accents
+				orange: '#FAC8A7', // Adjusted to be softer and complementary
 				light: {
-					100: '#333F4E',
-					200: '#A3B2C7',
-					300: '#F2F5F9',
-					400: '#F2F4F8',
+					100: '#1F3B54', // Darker blue for text
+					200: '#A0C1E1', // Light blue-gray for secondary text
+					300: '#EAF3FA', // Light background blue
+					400: '#EFF6FB', // Very light background for highlights
 				},
 				dark: {
-					100: '#04050C',
-					200: '#131524',
+					100: '#102840', // Deep blue for contrast text or backgrounds
+					200: '#183B5A', // Slightly lighter dark blue
 				},
 			},
 			fontFamily: {
 				poppins: ['var(--font-poppins)'],
 			},
 			boxShadow: {
-				'drop-1': '0px 10px 30px 0px rgba(66, 71, 97, 0.1)',
-				'drop-2': '0 8px 30px 0 rgba(65, 89, 214, 0.3)',
-				'drop-3': '0 8px 30px 0 rgba(65, 89, 214, 0.1)',
+				'drop-1': '0px 10px 30px 0px rgba(92, 160, 211, 0.1)', // Adjusted shadows to match bluish theme
+				'drop-2': '0 8px 30px 0 rgba(92, 160, 211, 0.3)',
+				'drop-3': '0 8px 30px 0 rgba(92, 160, 211, 0.1)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
